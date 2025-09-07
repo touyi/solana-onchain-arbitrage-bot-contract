@@ -13,3 +13,6 @@
 在arb_bot 目录执行 `anchor test` 编译&执行测试脚本（会本地拉起一个运行环境）
 测试脚本在`tests/arb_touyi.ts`
 测试脚本目前是调用合约里面的mytest指令（方法），传入了一个testUser账户，默认会直接使用solana 生成的默认路径钱包作为singer，所以这里没有传singer，只传了testUser，其他账户可用参考这种方式传递
+
+# 更多参考
+https://github.com/touyi/solana-onchain-arbitrage-bot
